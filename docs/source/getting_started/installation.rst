@@ -313,8 +313,8 @@ On Linux, you can open the final layout of the test design using KLayout. This w
    make mount
 
    # Open the spm.gds using KLayout with sky130 PDK
-   klayout -e -nn $PDK_ROOT/sky130A/libs.tech/klayout/sky130A.lyt \
-      -l $PDK_ROOT/sky130A/libs.tech/klayout/sky130A.lyp \
+   klayout -e -nn $PDK_ROOT/sky130A/libs.tech/klayout/tech/sky130A.lyt \
+      -l $PDK_ROOT/sky130A/libs.tech/klayout/tech/sky130A.lyp \
       ./designs/spm/runs/openlane_test/results/final/gds/spm.gds
 
    # Leave the Docker
